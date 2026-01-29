@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<TodoService>();
+builder.Services.AddSingleton<AlarmService>();
 
 var app = builder.Build();
 
