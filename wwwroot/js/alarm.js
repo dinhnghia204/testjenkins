@@ -38,6 +38,7 @@ function renderAlarms(alarms) {
             </div>
             <button class="alarm-delete" onclick="deleteAlarm(${alarm.id})">Xóa</button>
         </li>
+        
     `).join('');
 }
 
